@@ -1,6 +1,6 @@
-import { FC } from "react";
+import { FC } from 'react';
 
-import styles from "./SliderElement.module.scss";
+import styles from './SliderElement.module.scss';
 
 interface SliderElementProps {
   /**
@@ -10,7 +10,7 @@ interface SliderElementProps {
 }
 
 const SliderElement: FC<SliderElementProps> = ({ src }) => {
-  return <img className={styles.image} src={`/${src}.jpg`} />;
+  return <img className={styles.image} src={`./${src}.jpg`} />;
 };
 
 export default SliderElement;
