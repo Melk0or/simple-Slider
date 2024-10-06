@@ -6,14 +6,19 @@
     "strict": true,
     "noImplicitReturns": true,
     "noImplicitAny": false,
+    "composite": true,
 
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "downlevelIteration": true,
     "importHelpers": true,
     "target": "es6",
 
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
 
     "lib": ["dom"],
 
