@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "target": "es6",
+
+    "moduleResolution": "node",
+
+    "lib": ["dom"],
+
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@components/*": ["./src/components/*"]
+    }
+  },
+
+  "exclude": ["node_modules", "**/node_modules/*", "dist"]
+}

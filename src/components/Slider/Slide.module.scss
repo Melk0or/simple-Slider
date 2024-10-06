@@ -1,0 +1,12 @@
+.slider {
+  display: flex;
+  margin-bottom: 10px;
+
+  transition: 0.2s ease-in-out;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
